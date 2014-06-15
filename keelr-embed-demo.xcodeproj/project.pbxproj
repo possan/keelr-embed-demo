@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		951E808F194660D9001044D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 951E808E194660D9001044D6 /* main.m */; };
+		951E8092194660D9001044D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 951E8091194660D9001044D6 /* AppDelegate.m */; };
+		951E8095194660D9001044D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 951E8094194660D9001044D6 /* ViewController.m */; };
+		951E8098194660D9001044D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 951E8096194660D9001044D6 /* Main.storyboard */; };
+		951E809A194660D9001044D6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 951E8099194660D9001044D6 /* Images.xcassets */; };
+		951E80A6194660D9001044D6 /* keelr_embed_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 951E80A5194660D9001044D6 /* keelr_embed_demoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		951E80A0194660D9001044D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 951E8081194660D9001044D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 951E8088194660D9001044D6;
+			remoteInfo = "keelr-embed-demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		951E8089194660D9001044D6 /* keelr-embed-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "keelr-embed-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		951E808D194660D9001044D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		951E808E194660D9001044D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		951E8090194660D9001044D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		951E8091194660D9001044D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		951E8093194660D9001044D6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		951E8094194660D9001044D6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		951E8097194660D9001044D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		951E8099194660D9001044D6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		951E809F194660D9001044D6 /* keelr-embed-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "keelr-embed-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		951E80A4194660D9001044D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		951E80A5194660D9001044D6 /* keelr_embed_demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = keelr_embed_demoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		951E8086194660D9001044D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		951E809C194660D9001044D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		951E8080194660D9001044D6 = {
+			isa = PBXGroup;
+			children = (
+				951E808B194660D9001044D6 /* keelr-embed-demo */,
+				951E80A2194660D9001044D6 /* keelr-embed-demoTests */,
+				951E808A194660D9001044D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		951E808A194660D9001044D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				951E8089194660D9001044D6 /* keelr-embed-demo.app */,
+				951E809F194660D9001044D6 /* keelr-embed-demoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		951E808B194660D9001044D6 /* keelr-embed-demo */ = {
+			isa = PBXGroup;
+			children = (
+				951E8090194660D9001044D6 /* AppDelegate.h */,
+				951E8091194660D9001044D6 /* AppDelegate.m */,
+				951E8093194660D9001044D6 /* ViewController.h */,
+				951E8094194660D9001044D6 /* ViewController.m */,
+				951E8096194660D9001044D6 /* Main.storyboard */,
+				951E8099194660D9001044D6 /* Images.xcassets */,
+				951E808C194660D9001044D6 /* Supporting Files */,
+			);
+			path = "keelr-embed-demo";
+			sourceTree = "<group>";
+		};
+		951E808C194660D9001044D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				951E808D194660D9001044D6 /* Info.plist */,
+				951E808E194660D9001044D6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		951E80A2194660D9001044D6 /* keelr-embed-demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				951E80A5194660D9001044D6 /* keelr_embed_demoTests.m */,
+				951E80A3194660D9001044D6 /* Supporting Files */,
+			);
+			path = "keelr-embed-demoTests";
+			sourceTree = "<group>";
+		};
+		951E80A3194660D9001044D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				951E80A4194660D9001044D6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		951E8088194660D9001044D6 /* keelr-embed-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 951E80A9194660D9001044D6 /* Build configuration list for PBXNativeTarget "keelr-embed-demo" */;
+			buildPhases = (
+				951E8085194660D9001044D6 /* Sources */,
+				951E8086194660D9001044D6 /* Frameworks */,
+				951E8087194660D9001044D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "keelr-embed-demo";
+			productName = "keelr-embed-demo";
+			productReference = 951E8089194660D9001044D6 /* keelr-embed-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		951E809E194660D9001044D6 /* keelr-embed-demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 951E80AC194660D9001044D6 /* Build configuration list for PBXNativeTarget "keelr-embed-demoTests" */;
+			buildPhases = (
+				951E809B194660D9001044D6 /* Sources */,
+				951E809C194660D9001044D6 /* Frameworks */,
+				951E809D194660D9001044D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				951E80A1194660D9001044D6 /* PBXTargetDependency */,
+			);
+			name = "keelr-embed-demoTests";
+			productName = "keelr-embed-demoTests";
+			productReference = 951E809F194660D9001044D6 /* keelr-embed-demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		951E8081194660D9001044D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Per-Olov Jernberg";
+				TargetAttributes = {
+					951E8088194660D9001044D6 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					951E809E194660D9001044D6 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 951E8088194660D9001044D6;
+					};
+				};
+			};
+			buildConfigurationList = 951E8084194660D9001044D6 /* Build configuration list for PBXProject "keelr-embed-demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 951E8080194660D9001044D6;
+			productRefGroup = 951E808A194660D9001044D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				951E8088194660D9001044D6 /* keelr-embed-demo */,
+				951E809E194660D9001044D6 /* keelr-embed-demoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		951E8087194660D9001044D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				951E8098194660D9001044D6 /* Main.storyboard in Resources */,
+				951E809A194660D9001044D6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		951E809D194660D9001044D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		951E8085194660D9001044D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				951E8095194660D9001044D6 /* ViewController.m in Sources */,
+				951E8092194660D9001044D6 /* AppDelegate.m in Sources */,
+				951E808F194660D9001044D6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		951E809B194660D9001044D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				951E80A6194660D9001044D6 /* keelr_embed_demoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		951E80A1194660D9001044D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 951E8088194660D9001044D6 /* keelr-embed-demo */;
+			targetProxy = 951E80A0194660D9001044D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		951E8096194660D9001044D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				951E8097194660D9001044D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		951E80A7194660D9001044D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		951E80A8194660D9001044D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		951E80AA194660D9001044D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "keelr-embed-demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		951E80AB194660D9001044D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "keelr-embed-demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		951E80AD194660D9001044D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/keelr-embed-demo.app/keelr-embed-demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "keelr-embed-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		951E80AE194660D9001044D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/keelr-embed-demo.app/keelr-embed-demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "keelr-embed-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		951E8084194660D9001044D6 /* Build configuration list for PBXProject "keelr-embed-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				951E80A7194660D9001044D6 /* Debug */,
+				951E80A8194660D9001044D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		951E80A9194660D9001044D6 /* Build configuration list for PBXNativeTarget "keelr-embed-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				951E80AA194660D9001044D6 /* Debug */,
+				951E80AB194660D9001044D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		951E80AC194660D9001044D6 /* Build configuration list for PBXNativeTarget "keelr-embed-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				951E80AD194660D9001044D6 /* Debug */,
+				951E80AE194660D9001044D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 951E8081194660D9001044D6 /* Project object */;
+}
